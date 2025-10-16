@@ -1,0 +1,8 @@
+pages:
+  script:
+    - echo "Deploying projects to GitLab Pages"
+  artifacts:
+    paths:
+      - projects
+  only:
+    - main
