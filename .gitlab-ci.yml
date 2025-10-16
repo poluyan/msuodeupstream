@@ -3,6 +3,6 @@ pages:
     - echo "Deploying projects to GitLab Pages"
   artifacts:
     paths:
-      - projects
+      - project
   only:
     - main
