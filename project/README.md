@@ -15,6 +15,8 @@
 
 7. [Осциллятор Дуффинга](https://msuode.vercel.app/07_ode_project.html)
 
+---
+
 Конвертация `ipynb` в `html` для удобства и правильного рендеринга формул.
 ```
 jupyter nbconvert --to html --template classic filename.ipynb
