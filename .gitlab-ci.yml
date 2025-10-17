@@ -1,9 +1,10 @@
-image: alpine:latest
+# The Docker image that will be used to build your app
+image: ruby:2.7
 
 pages:
   stage: deploy
   script:
-    - echo "Deploying to GitLab Pages..."
+    - echo "Deploying HTML files to GitLab Pages"
   artifacts:
     paths:
       - project
